@@ -20,6 +20,8 @@ This repo contains a simple multiplayer game (maybe more of an animation (:) and
 1. Create a project in the [Google Cloud Platform Console](console.cloud.google.com)
 2. Download [The cloud sdk](https://cloud.google.com/sdk/downloads)
 3. Set your default project by running `gcloud config set <projectid>` <projectid> can be found by clicking on the project name on the top bar of the cloud platform console.
-4. Deploy to appengine by running `gcloud app deploy`. :fire:Boom Bam Pow:fire: Navigate to the (GAE Versions Page)[console.cloud.google.com/appengine/versions], click on the version name, and view your application!!
+4. Change the projectId value in model-datastore.js
+5. Set auth for Datastore by running `gcloud beta auth application-default login`
+6. Deploy to appengine by running `gcloud app deploy`. :fire:Boom Bam Pow:fire: Navigate to the (GAE Versions Page)[console.cloud.google.com/appengine/versions], click on the version name, and view your application!!
 
 
