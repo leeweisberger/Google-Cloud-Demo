@@ -1,0 +1,32 @@
+{
+  "name": "appengine_demo",
+  "version": "1.0.0",
+  "description": " Very basic multiplayer online game example made with Phaser and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jerenaux/basic-mmo-phaser.git"
+  },
+  "keywords": [
+    "Phaser",
+    "Multiplayer",
+    "game",
+    "Node.js",
+    "socket.io"
+  ],
+  "author": "Jerome Renaux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jerenaux/basic-mmo-phaser/issues"
+  },
+  "homepage": "https://github.com/Jerenaux/basic-mmo-phaser#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "nconf": "0.8.5",
+    "@google-cloud/datastore": "1.1.0"
+  }
+}
