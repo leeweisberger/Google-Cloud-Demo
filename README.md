@@ -17,7 +17,7 @@ This repo contains a simple multiplayer game (maybe more of an animation (:) and
 5. Navigate to [http://localhost:8081](http://localhost:8081)
 
 ## How to deploy to Google App Engine
-1. Create a project in the [Google Cloud Platform Console](console.cloud.google.com)
+1. Create a project in the [Google Cloud Platform Console](console.cloud.google.com) (You will probably have to [Enable Billing](https://cloud.google.com/billing/docs/how-to/modify-project#enable_billing_for_a_new_project))
 2. Download [The cloud sdk](https://cloud.google.com/sdk/downloads)
 3. Set your default project by running `gcloud config set <projectid>` <projectid> can be found by clicking on the project name on the top bar of the cloud platform console.
 4. Change the projectId value in model-datastore.js
